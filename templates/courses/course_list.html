@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content  %}
+<h1>course listview</h1>
+
+{{ course_list }}<br><br><br>
+
+{% for course in course_list %}
+Course Name: <a href="{{ course.id }}"><h2>{{course.course_name}}</h2></a>
+Course Number: {{ course.course_number }}
+Course Begin Date: {{ course.course_start_date }}
+Course End Date: {{ course_end_date }}
+
+{% endfor %}
+
+{% endblock %}
