@@ -33,10 +33,10 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'phone_field',
-    'students.apps.StudentsConfig',
-    'faculty.apps.FacultyConfig',
+    # 'students.apps.StudentsConfig',
+    # 'faculty.apps.FacultyConfig',
     'schools.apps.SchoolsConfig',
-    'courses.apps.CoursesConfig',
+    # 'courses.apps.CoursesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -120,11 +120,18 @@ USE_L10N = True
 USE_TZ = True
 
 
+STATIC_URL = '/static/'
+STATIC_ROOT = Path.joinpath(BASE_DIR, 'static')
+MEDIA_URL ='/media/'
+MEDIA_ROOT = Path.joinpath(BASE_DIR, 'media')
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_URL = 'login'
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
-MEDIA_URL = '/media/'
 
 try:
     from .local_settings import *

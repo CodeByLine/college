@@ -1,8 +1,30 @@
 {% extends 'base.html' %}
-
+{% load static %}
+ 
 
 {% block content %}
 
-<h1>Index - Schools</h1>
+<style type="text/css">
+    body { 
+     background: url('{% static "images/art-school-of-athens-1143741_1280.jpeg" %}') rgba(62,47,31, 0.7); no-repeat center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     background-blend-mode: overlay;
+    }
+</style>
+
+
+<div class="front_page_main">
+
+    <h1 class="display-5" id="front-h1">The College of Stoic Philosophers</h1>
+
+    <h4 id="front-h2">Start Your Journey Now</h2>
+</div>
 
 {% endblock %}
+
+
+
+

@@ -12,3 +12,15 @@ from django.http import HttpResponseRedirect
 
 def index(request):
     return render(request, 'schools/index.html')
+
+def prep(request):
+    return render(request, 'schools/prep.html')
+
+def ses(request):
+    return render(request, 'schools/ses.html')
+
+def mas(request):
+    return render(request, 'schools/mas.html')
+
+def about(request):
+    return render(request, 'schools/about.html')
