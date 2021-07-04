@@ -1,1 +1,1 @@
-gunicorn = gunicorn -w 3 college:app
+web gunicorn cooking.wsgi --log-file -
