@@ -1,0 +1,189 @@
+body {
+    background-color: #eeeeee;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1.page-heading {
+    letter-spacing: -3;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+h2.page-heading {
+    letter-spacing: -3;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h5.page-sub-heading {
+    letter-spacing: -3;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+h6.page-3rd-heading {
+    letter-spacing: -3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 3rem;
+    text-transform: Italics;
+}
+
+
+/* nav */
+.navbar {
+    background-color: #990000;
+    padding-left: -5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
+ 
+}
+
+.collapse.navbar-collapse .navbar-nav{
+    justify-items: right;
+
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+#myNavbar {
+    color: white;
+}
+
+.dropdown-menu {
+    background: #af0202;
+    
+}
+
+a.dropdown-item {
+    color: white;
+    font-size: 0.7rem;
+}
+
+a.dropdown-item:hover {
+    background: #bb0a0a;
+    color: white;
+}
+
+
+/* above--nav */
+
+
+
+/* individual pages */
+
+#school1
+{ 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: auto;
+}
+
+#front-h1 {
+    color: white;
+    letter-spacing: -0.5;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#front-h2 {
+    color: white;
+    letter-spacing: -0.5;
+    margin-top: 1rem;
+    /* line-height: 1; */
+    font-weight: 500;
+}
+
+.front_page_main {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30vh;
+    margin-right: 55vw;
+}
+
+.prep-h2 {
+    color: black;
+    /* margin-top: 2rem; */
+}
+
+
+.page_main {
+    max-width: 700px;
+    margin: 3rem auto;
+}
+
+/* profile page */
+.page_main_2 {
+    max-width: 1200px;
+    margin: 3rem auto;
+}     
+
+
+
+/* above--individual pages */
+
+
+/* links */
+a {
+    color: white;
+}
+
+a:hover,
+a:focus {
+    color: pink;
+}
+
+a .navbar-brand img {
+    margin-bottom: -5rem;
+}
+
+a .navbar-dropdown.nav-link.dropdown-toggle.show {
+    color: white;
+}
+
+/* above--links */
+
+/* profile columns */
+
+.profile {
+    background-color: lightgrey;
+}
+/* above--profile columns */
+
+
+
+/* media queries */
+@media only screen and (min-width: 992px) {
+
+    #navbarSupportedContent {
+        margin-left: 4rem;
+
+    }
+
+    ul.navbar-nav {
+        margin-right: 0;
+    }
+}
+
+/* above--media queries--min 992px */
