@@ -5,7 +5,8 @@ body {
 p {
     font-size: 1rem;
     margin-bottom: 0.8rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Muli, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 h1.page-heading {
@@ -44,7 +45,7 @@ h6.page-3rd-heading {
     padding-left: -5rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
  
 }
 
@@ -118,8 +119,8 @@ a.dropdown-item:hover {
     justify-items: flex-start;
     align-content: center;
     flex-wrap: wrap;
-    margin-top: 30vh;
-    margin-right: 55vw;
+    margin-top: 33vh;
+    margin-right: 54vw;
 }
 
 .prep-h2 {
@@ -207,7 +208,8 @@ a .navbar-dropdown.nav-link.dropdown-toggle.show {
 @media only screen and (min-width: 992px) {
 
     #navbarSupportedContent {
-        margin-left: 4rem;
+        margin-right: 3rem;
+        justify-content: flex-end;
 
     }
 
