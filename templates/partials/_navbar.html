@@ -29,9 +29,10 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="{% url 'prep' %}">Prep</a></li>
+              <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="{% url 'ses' %}">SES</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="{% url 'mas' %}">MAS</a></li>
+              <li><a class="dropdown-item" href="{% url 'map' %}">MAP</a></li>
             </ul>
           </li>
 
@@ -40,7 +41,7 @@
           </li>
   
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="{% url 'index' %}">FAQ</a>
+            <a class="nav-link" aria-current="page" href="{% url 'faq' %}">FAQ</a>
           </li>
 
           <li class="nav-item dropdown {% if 'index' == request.path %} active {% endif %}">
@@ -49,9 +50,10 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="{% url 'about' %}">About Us</a></li>
+              <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="{% url 'ses' %}">SES</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="{% url 'mas' %}">MAS</a></li>
+              <li><a class="dropdown-item" href="{% url 'map' %}">MAP</a></li>
             </ul>
           </li>
   

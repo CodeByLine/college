@@ -19,8 +19,11 @@ def prep(request):
 def ses(request):
     return render(request, 'schools/ses.html')
 
-def mas(request):
-    return render(request, 'schools/mas.html')
+def map(request):
+    return render(request, 'schools/map.html')
 
 def about(request):
     return render(request, 'schools/about.html')
+
+def faq(request):
+    return render(request, 'schools/faq.html')
