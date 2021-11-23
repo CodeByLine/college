@@ -89,6 +89,10 @@ DATABASES = {
 }
 
 
+# Fix default_AutoField error: https://stackoverflow.com/a/66971803/5965865
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
